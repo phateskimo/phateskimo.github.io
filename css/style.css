@@ -1,6 +1,6 @@
 /* style.css for making specific style changes */
 
-*{
+* {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	-ms-box-sizing: border-box;
@@ -17,9 +17,9 @@ h3 {
 	font-family: 'Lato', sans-serif;
 	color: #BCBBBB;
 	font-weight: 300;
-	}	
+	}
 
-/* for the round button in left side of header, adapted from http://codeitdown.com/css-round-buttons/ */	
+/* for the round button in left side of header, adapted from http://codeitdown.com/css-round-buttons/ */
 .round-button {
     display:block;
     width:100px;
@@ -33,13 +33,13 @@ h3 {
 	font-size:36px;
 	letter-spacing: 5px;
     }
-/* TODO: not toally sure of the color here, will come back and play around with it */	
+/* TODO: not toally sure of the color here, will come back and play around with it */
 .footer {
   padding: 15px 0;
   margin: 25px 0;
   text-align: center;
   background-color: rgba(116,119,4, 0.6);
-}	
+}
 
 /* this section for the socialbar icons from http://perfecticons.com/, currently have twitter, g+ and linked in, can do more */
 @font-face {
@@ -51,7 +51,7 @@ h3 {
          url('../fonts/socicon.svg#icomoonregular') format('svg');
     font-weight: normal;
     font-style: normal;
- 
+
 }
 .soc {
     overflow:hidden;
@@ -85,7 +85,7 @@ h3 {
     color: #ffffff;
     background-color: #bcbbbb;
 }
-.soc-icon-last{
+.soc-icon-last {
     margin:0 !important;
 }
 .soc-twitter:before {
